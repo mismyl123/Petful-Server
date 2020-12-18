@@ -4,9 +4,10 @@ module.exports = {
     'Trevor Cory',
     'Jim Lahey'
   ],
-
+const STORE = {
   dogs: [
     {
+      id: 1,
       age: 3,
       breed: 'Golden Retriever',
       description: 'A smiling golden-brown golden retreiver listening to music.',
@@ -17,6 +18,7 @@ module.exports = {
     },
 
     {
+      id: 2,
       age: 3,
       breed: 'Akita',
       description: 'A smiling golden-brown dog',
@@ -27,6 +29,7 @@ module.exports = {
     },
 
     {
+      id: 3,
       imageURL: 'https://images.pexels.com/photos/160846/french-bulldog-summer-smile-joy-160846.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       description: 'Black pug.',
       name: 'Bilbo',
@@ -37,6 +40,7 @@ module.exports = {
     },
 
     {
+      id: 4,
       age: 3,
       breed: 'Collie',
       description: 'Border collie.',
@@ -47,6 +51,7 @@ module.exports = {
     },
 
     {
+      id: 5,
       age: 3,
       breed: 'Pug',
       description: 'pug.',
@@ -57,6 +62,7 @@ module.exports = {
     },
 
     {
+      id: 6,
       imageURL: 'https://images.pexels.com/photos/551628/pexels-photo-551628.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       description: 'A smiling golden-brown golden retreiver listening to music.',
       name: 'Zeke',
@@ -67,6 +73,7 @@ module.exports = {
     },
 
     {
+      id: 7,
       age: 3,
       breed: 'Golden Retriever',
       description: 'A smiling golden-brown golden retreiver listening to music.',
@@ -77,6 +84,7 @@ module.exports = {
     },
 
     {
+      id: 8,
       age: 3,
       breed: 'Fluffy Dog',
       description: 'Australian sheppard',
@@ -87,6 +95,7 @@ module.exports = {
     },
 
     {
+      id: 9,
       age: 3,
       breed: 'Terrier',
       description: 'terrier',
@@ -97,6 +106,7 @@ module.exports = {
     },
 
     {
+      id: 10,
       age: 3,
       breed: 'Golden Retriever',
       description: 'A smiling golden-brown golden retreiver',
@@ -107,6 +117,7 @@ module.exports = {
     },
 
     {
+      id: 11,
       age: 3,
       breed: 'Boxer',
       description: 'boxer dog',
@@ -119,6 +130,7 @@ module.exports = {
 
   cats: [
     {
+      id: 1,
       age: 2,
       breed: 'Bengal',
       description: 'Orange bengal cat with black stripes lounging on concrete.',
@@ -129,6 +141,7 @@ module.exports = {
     },
 
     {
+      id: 2,
       age: 2,
       breed: 'white cat',
       description: 'White cat',
@@ -139,6 +152,7 @@ module.exports = {
     },
 
     {
+      id: 3,
       age: 2,
       breed: 'Bengal',
       description: 'Grey cat',
@@ -149,6 +163,7 @@ module.exports = {
     },
 
     {
+      id: 4,
       age: 2,
       breed: 'Bengal',
       description: 'Orange cat',
@@ -158,6 +173,7 @@ module.exports = {
       story: 'Thrown on the street'
     },
     {
+      id: 5,
       age: 2,
       breed: 'Bengal',
       description: 'Grey cat',
@@ -168,6 +184,7 @@ module.exports = {
     },
 
     {
+      id: 6,
       age: 2,
       breed: 'Tabby',
       description: 'Orange bengal cat with black stripes lounging on concrete.',
@@ -178,6 +195,7 @@ module.exports = {
     },
 
     {
+      id: 7,
       age: 2,
       breed: 'Bengal',
       description: 'Brown kitty',
@@ -188,6 +206,7 @@ module.exports = {
     },
 
     {
+      id: 8,
       age: 2,
       breed: 'Bengal',
       description: 'kitty',
@@ -198,6 +217,7 @@ module.exports = {
     },
 
     {
+      id: 9,
       age: 2,
       breed: 'Tabby',
       description: 'grey cat',
@@ -208,6 +228,7 @@ module.exports = {
     },
 
     {
+      id: 10,
       age: 2,
       breed: 'Tabby',
       description: 'grey cat',
@@ -218,6 +239,7 @@ module.exports = {
     },
 
     {
+      id: 11,
       age: 3,
       breed: 'Tabby',
       description: 'boxer dog',
@@ -227,4 +249,5 @@ module.exports = {
       story: 'Found in neighborhood'
     }
   ]
+}
 }
