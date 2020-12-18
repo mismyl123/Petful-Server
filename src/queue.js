@@ -46,40 +46,24 @@ class Queue {
     return false;
   }
 
+
+show() {
+  // Return the next item in the queue.
+  if (this.first.value !== null) return this.first.value;
+  return null;
 }
 
-function peek(queue) {
-  if(!queue.first) return null;
-  return queue.first;
-}
-
-function isEmpty(queue) {
-  if(!queue.first && !queue.last) {
-    return true;
+all() {
+  // Return all items in the queue.
+  if (this.first === null) return false;
+  let current = this.first;
+  const tempArray = [];
+  while (current) {
+    tempArray.push(current.value);
+    current = current.next;
   }
-  return false;
+  return tempArray;
 }
 
-function display(queue) {
-  let results = '';
-  let currNode = queue.first;
-  if(!currNode) return 'Your queue is empty';
-  else if(!currNode.next) {
-    results += `${currNode.data}->null`;
-    return results;
-  }
-  // if(!currNode.next) {
-  //   console.log(`${currNode.data}->null`)
-  //   return
-  // }
-  else {
-    while(currNode) {
-      results += `${currNode.data}->`;
-      currNode = currNode.next;
-    }
-    results += 'null';
-    return results;
-  }
 }
-
 module.exports = Queue;
