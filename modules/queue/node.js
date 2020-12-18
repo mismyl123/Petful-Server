@@ -1,10 +1,8 @@
-
-/* eslint-disable strict */
-class Node {
-    constructor(data, next) {
-      this.data = data;
-      this.next = next;
-    }
+class _Node {
+  constructor(value, next) {
+    this.value = value;
+    this.next = next;
   }
-  
-  module.exports = Node;
+}
+    
+module.exports = _Node;
