@@ -1,10 +1,21 @@
-## Petful Server
+# Petful Server
 
-# Collaborators: Zeid Diez, Michelle LaLonde, Marcus Ridley
+---------------------------------------------------------------------------------
 
+## Collaborators: Zeid Diez, Michelle LaLonde, Marcus Ridley
 
-Live @ 
-Introduction
+---------------------------------------------------------------------------------
+
+## Live Demo:
+
+## Server Repo:
+
+## Client Repo:
+
+---------------------------------------------------------------------------------
+
+## About:
+
 
 Petful - server provides API services to Petful - client.
 
