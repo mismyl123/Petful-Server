@@ -1,4 +1,7 @@
-# Petful Server
+## Petful Server
+
+# Collaborators: Zeid Diez, Michelle LaLonde, Marcus Ridley
+
 
 Live @ 
 Introduction
