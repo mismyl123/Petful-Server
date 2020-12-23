@@ -2,10 +2,7 @@
   "name": "petful-server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "predeploy": "npm audit",
+    "dev": "nodemon server",
     "deploy": "git push heroku master"
   },
   "engines": {
@@ -14,13 +11,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "knex": "^0.20.10",
-    "morgan": "^1.10.0",
     "pg": "^7.18.2"
-  },
-  "devDependencies": {
-    "cypress": "^6.2.0"
   }
 }

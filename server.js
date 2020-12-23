@@ -1,6 +1,11 @@
-const app = require('./app')
-const config = require('./config')
+const app = require('./modules/app/app')
+const port = process.env.PORT || 8000
 
-app.listen(config.PORT,()=>{
-  console.log(`Serving on ${config.PORT}`);
-});
+app.use(cors({
+  origin: CLIENT_ORIGIN
+})
+)
+
+app.listen(port, () => {
+  console.log(`[petful-server] Listening on ${ port }.`)
+})
