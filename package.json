@@ -6,7 +6,6 @@
     "dev": "nodemon server",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
-
   },
   "engines": {
     "node": "12.19.0"
