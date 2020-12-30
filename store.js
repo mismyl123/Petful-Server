@@ -4,6 +4,7 @@ module.exports = {
     'Trevor Cory',
     'Jim Lahey'
   ],
+
   dogs: [
     {
       age: 3,
@@ -226,4 +227,4 @@ module.exports = {
       story: 'Found in neighborhood'
     }
   ]
-}
+};
