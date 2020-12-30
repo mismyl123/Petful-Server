@@ -8,13 +8,15 @@ test
 ## Collaborators:
 Zeid Diez,
 Michelle LaLonde,
-Marcus Ridley
+Marcus Ridley,
+Dariss Harris
 
 ---------------------------------------------------------------------------------
 
 ### Live Demo:
 
 ### Server Repo:
+### Server Deploy: https://peaceful-sierra-52855.herokuapp.com/
 
 ### Client Repo:
 
