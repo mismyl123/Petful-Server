@@ -4,6 +4,7 @@ module.exports = {
     'Trevor Cory',
     'Jim Lahey'
   ],
+  
   dogs: [
     {
       age: 3,
