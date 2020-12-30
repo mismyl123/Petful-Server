@@ -1,4 +1,4 @@
-const _Node = require('./node');
+const _Node = require('./node').default;
 
 
 class Queue {
