@@ -1,4 +1,5 @@
 const _Node = require('./node').default;
+console.log(test)
 
 
 class Queue {
