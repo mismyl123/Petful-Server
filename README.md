@@ -13,7 +13,7 @@ Dariss Harris
 ### Live Demo:
 
 ### Server Repo:
-### Server Deploy: https://peaceful-sierra-52855.herokuapp.com/
+### Server Deploy: 
 
 ### Client Repo:
 
