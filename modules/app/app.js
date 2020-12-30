@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const store = require('../../store');
 const { NODE_ENV } = require('../../config');
-const petRouter = require('../pets/pets.router');
+const petsRouter = require('../pets/pets.router');
 const peopleRouter = require('../people/people.router');
 const app = express();
 
@@ -17,7 +17,7 @@ app.use(morgan(morganOption));
 app.use(express.json());
 
 app.use('/people', peopleRouter);
-app.use('/pets', petRouter);
+app.use('/pets', petsRouter);
 app.use((err, req, res, next) => {
   console.log(err);
   if (err.status) {
