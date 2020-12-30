@@ -1,8 +1,5 @@
 # Petful Server
-test
-test
-test
-test
+
 ---------------------------------------------------------------------------------
 
 ## Collaborators:
@@ -41,7 +38,17 @@ Client repo
 /api/cat GET
 /api/cat DELETE
 
-Core Technologies
+## Technologies Used
 
-    Node.js
-    express
+### FrontEnd
+
+   * JavaScript
+   * React
+   * React-Router
+
+### Backend
+
+   * NodeJs
+   * Express
+   * Knex
+
