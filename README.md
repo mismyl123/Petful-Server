@@ -11,8 +11,8 @@ Dariss Harris
 
 ### Live Demo:
 
-### Server Repo:
-### Server Deploy: https://github.com/mismyl123/Petful-Server
+### Server Repo:https://github.com/mismyl123/Petful-Server
+### Server Deploy: 
 ### Client Repo: https://github.com/mismyl123/Petful-Client
 ---------------------------------------------------------------------------------
 
