@@ -15,7 +15,7 @@ Dariss Harris
 
 ### Server Deploy: https://warm-mountain-57821.herokuapp.com/
 
-### Client Repo:https://github.com/mismyl123/Petful-Client
+### Client Repo: https://github.com/mismyl123/Petful-Client
 ---------------------------------------------------------------------------------
 
 ## About:
